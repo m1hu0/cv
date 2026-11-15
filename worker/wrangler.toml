@@ -1,0 +1,12 @@
+name = "cv-api"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://m1hu0.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cv"
+database_id = "d7710928-d90b-4d55-8cac-2262b2478c1c"
+migrations_dir = "migrations"
